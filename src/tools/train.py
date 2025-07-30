@@ -7,7 +7,6 @@ if __name__ == '__main__':
 
     model = YOLO('yolo11n.pt').to(device)
 
-    # Обучение с более стандартным размером изображения
     model.train(
         data='dataset.yaml',
         epochs=100,

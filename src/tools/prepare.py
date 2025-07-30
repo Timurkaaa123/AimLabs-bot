@@ -46,13 +46,12 @@ def rename(directory):
     counter = START_NUM
     for filename in tqdm(files):
         if filename == 'classes.txt':
-            continue  # пропускаем этот файл
+            continue 
         if 'dataset_' in filename:
                 continue
 
         old_path = os.path.join(directory, filename)
         if os.path.isfile(old_path):
-            # Получаем расширение файла
             _, ext = os.path.splitext(filename)
             old_name = filename[:-3]
 
