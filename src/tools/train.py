@@ -12,8 +12,8 @@ if __name__ == '__main__':
         epochs=100,
         imgsz=640,
         batch=16,
-        project='models',
-        name='30-07-2025',
+        project='../../models',
+        name='version name',
         save=True,
         verbose=True
     )
