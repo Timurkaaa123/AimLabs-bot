@@ -29,7 +29,7 @@ def choose_target(targets, frame):
 
 		diff = abs(x - center_x) + abs(y - center_y)
 
-		if diff < min_diff:
+		if diff <= min_diff:
 			min_diff = diff
 			points = [(x, y), (x1, y1), (x2, y2)]
 
