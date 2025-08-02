@@ -13,3 +13,6 @@ FPS_OVERLAY = True
 # Visualisation colors. Format - BGR (Blue, Green, Red)
 FPS_COLOR = (0, 255, 0)
 CURRENT_TARGET_COLOR = (0, 0, 255)
+
+# Model version
+MODEL = "1.0.0"
