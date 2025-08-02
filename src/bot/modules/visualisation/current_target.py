@@ -6,7 +6,7 @@ def add_target(frame, target):
 
     target = target[0]
 
-    cv2.line(frame, (height, target[0]), (0, target[0]), config.CURRENT_TARGET_COLOR)
-    cv2.line(frame, (width, target[1]), (0, target[1]), config.CURRENT_TARGET_COLOR)
+    cv2.line(frame, (target[0], height), (target[0], 0), config.CURRENT_TARGET_COLOR)
+    cv2.line(frame, (0, target[1]), (width, target[1]), config.CURRENT_TARGET_COLOR)
     
     return frame
