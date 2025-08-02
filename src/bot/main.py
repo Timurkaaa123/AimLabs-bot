@@ -12,9 +12,11 @@ def start():
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, config.FRAME_WIDTH)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, config.FRAME_HEIGHT)
 
+
     prev_time = 0
 
     while True:
+
         ret, frame = cap.read()
 
         # Detection
