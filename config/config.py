@@ -1,5 +1,5 @@
 # OBS Virtual Cam
-FRAME_WIDTH = 424
+FRAME_WIDTH = 420
 FRAME_HEIGHT = 240
 
 
@@ -19,4 +19,4 @@ MODEL = "1.0.0"
 
 
 # AIMing settings
-ACCURACY = 10.0 #The value defines the permissible deviation from the target center. Default: 10.0
+ACCURACY = 0.00 #The value defines the permissible deviation from the target center. Default: 0.00
