@@ -16,3 +16,7 @@ CURRENT_TARGET_COLOR = (0, 0, 255)
 
 # Model version
 MODEL = "1.0.0"
+
+
+# AIMing settings
+ACCURACY = 10.0 #The value defines the permissible deviation from the target center. Default: 10.0

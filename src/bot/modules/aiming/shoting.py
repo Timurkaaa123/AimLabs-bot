@@ -1,6 +1,6 @@
 import ctypes
 from ctypes import wintypes
-
+import config.config as config
 
 mouse = ctypes.WinDLL('src/bot/dll/mouse.dll')
 
@@ -40,7 +40,7 @@ def shot(target, frame):
 	center = (center_x, center_y)
 
 
-	if target[0] == center:
+	if abs(target_x - center_x) < config.ACCURACY and abs(target_y - center_y) < config.ACCURACY:
 		mouse.LeftClick()
 	else:
 		movement(target, frame)
