@@ -1,5 +1,5 @@
 ---
-name: "[Bug] *Name*"
+name: Bug Issue
 about: Brief description
 title: "[BUG]"
 labels: bug
